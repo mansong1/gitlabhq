@@ -56,7 +56,7 @@ gem 'gitlab_git', '~> 10.7.0'
 # LDAP Auth
 # GitLab fork with several improvements to original library. For full list of changes
 # see https://github.com/intridea/omniauth-ldap/compare/master...gitlabhq:master
-gem 'gitlab_omniauth-ldap', '~> 1.2.1', require: 'omniauth-ldap'
+gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap'
 
 # Git Wiki
 # Required manually in config/initializers/gollum.rb to control load order
@@ -117,7 +117,7 @@ gem 'truncato',           '~> 0.7.8'
 gem 'nokogiri', '~> 1.6.7', '>= 1.6.7.2'
 
 # Diffs
-gem 'diffy', '~> 3.1.0'
+gem 'diffy', '~> 3.4.1'
 
 # Application server
 group :unicorn do
