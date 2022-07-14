@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.2.8.1'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
@@ -81,7 +81,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 0.10.0'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.2'
 
 # for backups
 gem 'fog-aws', '~> 0.9'
@@ -309,7 +309,7 @@ group :development, :test do
   gem 'license_finder', '~> 2.1.0', require: false
   gem 'knapsack', '~> 1.11.0'
 
-  gem 'activerecord_sane_schema_dumper', '0.2'
+  gem 'activerecord_sane_schema_dumper', '1.0'
 end
 
 group :test do
@@ -343,7 +343,7 @@ gem 'oauth2', '~> 1.2.0'
 gem 'paranoia', '~> 2.0'
 
 # Health check
-gem 'health_check', '~> 2.2.0'
+gem 'health_check', '~> 2.2.1'
 
 # System information
 gem 'vmstat', '~> 2.2'
