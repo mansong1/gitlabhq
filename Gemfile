@@ -19,19 +19,19 @@ gem 'pg', '~> 0.18.2', group: :postgres
 # Authentication libraries
 gem 'devise',                 '~> 4.2'
 gem 'doorkeeper',             '~> 4.2.0'
-gem 'omniauth',               '~> 1.3.1'
-gem 'omniauth-auth0',         '~> 1.4.1'
-gem 'omniauth-azure-oauth2',  '~> 0.0.6'
-gem 'omniauth-bitbucket',     '~> 0.0.2'
+gem 'omniauth', '~> 2.0.0'
+gem 'omniauth-auth0', '~> 1.4.1'
+gem 'omniauth-azure-oauth2', '~> 0.0.6'
+gem 'omniauth-bitbucket', '~> 0.0.2'
 gem 'omniauth-cas3',          '~> 1.1.2'
-gem 'omniauth-facebook',      '~> 4.0.0'
-gem 'omniauth-github',        '~> 1.1.1'
-gem 'omniauth-gitlab',        '~> 1.0.0'
+gem 'omniauth-facebook', '~> 4.0.0'
+gem 'omniauth-github', '~> 2.0.0'
+gem 'omniauth-gitlab', '~> 3.0.0'
 gem 'omniauth-google-oauth2', '~> 0.4.1'
 gem 'omniauth-kerberos',      '~> 0.3.0', group: :kerberos
-gem 'omniauth-saml',          '~> 1.7.0'
-gem 'omniauth-shibboleth',    '~> 1.2.0'
-gem 'omniauth-twitter',       '~> 1.2.0'
+gem 'omniauth-saml', '~> 2.0.0'
+gem 'omniauth-shibboleth', '~> 1.2.1'
+gem 'omniauth-twitter', '~> 1.2.1'
 gem 'omniauth_crowd',         '~> 2.2.0'
 gem 'rack-oauth2',            '~> 1.2.1'
 gem 'jwt'
@@ -56,7 +56,7 @@ gem 'gitlab_git', '~> 10.7.0'
 # LDAP Auth
 # GitLab fork with several improvements to original library. For full list of changes
 # see https://github.com/intridea/omniauth-ldap/compare/master...gitlabhq:master
-gem 'gitlab_omniauth-ldap', '~> 1.2.1', require: 'omniauth-ldap'
+gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap'
 
 # Git Wiki
 # Required manually in config/initializers/gollum.rb to control load order
