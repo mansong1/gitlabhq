@@ -6,7 +6,7 @@ gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 # Responders respond_to and respond_with
 gem 'responders', '~> 2.0'
 
-gem 'sprockets', '~> 3.7.0'
+gem 'sprockets', '~> 4.2.0'
 gem 'sprockets-es6', '~> 0.9.2'
 
 # Default values for AR models
@@ -81,7 +81,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 0.10.0'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.2'
 
 # for backups
 gem 'fog-aws', '~> 0.9'
@@ -214,7 +214,7 @@ gem 'oj', '~> 2.17.4'
 gem 'chronic', '~> 0.10.2'
 gem 'chronic_duration', '~> 0.10.6'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'uglifier', '~> 2.7.2'
 gem 'turbolinks', '~> 2.5.0'
@@ -254,7 +254,7 @@ group :development do
   gem 'rerun', '~> 0.11.0'
   gem 'bullet', '~> 5.2.0', require: false
   gem 'rblineprof', '~> 0.3.6', platform: :mri, require: false
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 
   # Better errors handler
   gem 'better_errors', '~> 1.0.1'
@@ -343,7 +343,7 @@ gem 'oauth2', '~> 1.2.0'
 gem 'paranoia', '~> 2.0'
 
 # Health check
-gem 'health_check', '~> 2.2.0'
+gem 'health_check', '~> 2.2.1'
 
 # System information
 gem 'vmstat', '~> 2.2'
