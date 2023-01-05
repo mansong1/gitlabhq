@@ -139,7 +139,7 @@ gem 'sidekiq-cron', '~> 0.4.0'
 gem 'redis-namespace', '~> 1.5.2'
 
 # HTTP requests
-gem 'httparty', '~> 0.13.3'
+gem 'httparty', '~> 0.21.0'
 
 # Colored output to console
 gem 'rainbow', '~> 2.1.0'
@@ -159,7 +159,7 @@ gem 'redis', '~> 3.2'
 gem 'connection_pool', '~> 2.0'
 
 # HipChat integration
-gem 'hipchat', '~> 1.5.0'
+gem 'hipchat', '~> 1.5.2'
 
 # JIRA integration
 gem 'jira-ruby', '~> 1.1.2'
