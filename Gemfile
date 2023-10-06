@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.1.0'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 3.0', '>= 3.0.0'
 
 gem 'sprockets', '~> 3.7.0'
 gem 'sprockets-es6', '~> 0.9.2'
@@ -17,8 +17,8 @@ gem 'mysql2', '~> 0.3.16', group: :mysql
 gem 'pg', '~> 0.18.2', group: :postgres
 
 # Authentication libraries
-gem 'devise',                 '~> 4.2'
-gem 'doorkeeper',             '~> 4.2.0'
+gem 'devise', '~> 4.7', '>= 4.7.0'
+gem 'doorkeeper', '~> 4.2.5'
 gem 'omniauth',               '~> 1.3.1'
 gem 'omniauth-auth0',         '~> 1.4.1'
 gem 'omniauth-azure-oauth2',  '~> 0.0.6'
@@ -41,7 +41,7 @@ gem 'recaptcha', '~> 3.0', require: 'recaptcha/rails'
 gem 'akismet', '~> 2.0'
 
 # Two-factor authentication
-gem 'devise-two-factor', '~> 3.0.0'
+gem 'devise-two-factor', '~> 5.0.0'
 gem 'rqrcode-rails3', '~> 0.1.7'
 gem 'attr_encrypted', '~> 3.0.0'
 gem 'u2f', '~> 0.2.1'
@@ -72,7 +72,7 @@ gem 'grape-entity', '~> 0.4.2'
 gem 'rack-cors',    '~> 0.4.0', require: 'rack/cors'
 
 # Pagination
-gem 'kaminari', '~> 0.17.0'
+gem 'kaminari', '~> 1.0.0'
 
 # HAML
 gem 'hamlit', '~> 2.6.1'
@@ -81,7 +81,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 0.10.0'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.3'
 
 # for backups
 gem 'fog-aws', '~> 0.9'
@@ -131,7 +131,7 @@ gem 'state_machines-activerecord', '~> 0.4.0'
 gem 'after_commit_queue', '~> 1.3.0'
 
 # Issue tags
-gem 'acts-as-taggable-on', '~> 4.0'
+gem 'acts-as-taggable-on', '~> 5.0', '>= 5.0.0'
 
 # Background jobs
 gem 'sidekiq', '~> 4.2'
@@ -152,7 +152,7 @@ gem 'settingslogic', '~> 2.0.9'
 gem 'version_sorter', '~> 2.1.0'
 
 # Cache
-gem 'redis-rails', '~> 4.0.0'
+gem 'redis-rails', '~> 5.0.2'
 
 # Redis
 gem 'redis', '~> 3.2'
@@ -180,7 +180,7 @@ gem 'asana', '~> 0.4.0'
 gem 'ruby-fogbugz', '~> 0.2.1'
 
 # d3
-gem 'd3_rails', '~> 3.5.0'
+gem 'd3_rails', '~> 3.5.12'
 
 # underscore-rails
 gem 'underscore-rails', '~> 1.8.0'
@@ -214,20 +214,20 @@ gem 'oj', '~> 2.17.4'
 gem 'chronic', '~> 0.10.2'
 gem 'chronic_duration', '~> 0.10.6'
 
-gem 'sass-rails', '~> 5.0.6'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails', '~> 5.0.8'
+gem 'coffee-rails', '~> 4.2.2'
 gem 'uglifier', '~> 2.7.2'
-gem 'turbolinks', '~> 2.5.0'
+gem 'turbolinks', '~> 2.5.4'
 gem 'jquery-turbolinks', '~> 2.1.0'
 
 gem 'addressable',        '~> 2.3.8'
 gem 'bootstrap-sass',     '~> 3.3.0'
-gem 'font-awesome-rails', '~> 4.6.1'
+gem 'font-awesome-rails', '~> 4.7.0', '>= 4.7.0.8'
 gem 'gemojione',          '~> 3.0'
-gem 'gon',                '~> 6.1.0'
+gem 'gon', '~> 6.2.0'
 gem 'jquery-atwho-rails', '~> 1.3.2'
-gem 'jquery-rails',       '~> 4.1.0'
-gem 'jquery-ui-rails',    '~> 5.0.0'
+gem 'jquery-rails', '~> 4.2.0'
+gem 'jquery-ui-rails', '~> 6.0.0'
 gem 'request_store',      '~> 1.3'
 gem 'select2-rails',      '~> 3.5.9'
 gem 'virtus',             '~> 1.0.1'
@@ -237,7 +237,7 @@ gem 'base32',             '~> 0.3.0'
 # Sentry integration
 gem 'sentry-raven', '~> 2.0.0'
 
-gem 'premailer-rails', '~> 1.9.0'
+gem 'premailer-rails', '~> 1.10.3'
 
 # Metrics
 group :metrics do
@@ -250,14 +250,14 @@ group :development do
   gem 'foreman', '~> 0.78.0'
   gem 'brakeman', '~> 3.3.0', require: false
 
-  gem 'letter_opener_web', '~> 1.3.0'
+  gem 'letter_opener_web', '~> 1.3.1'
   gem 'rerun', '~> 0.11.0'
   gem 'bullet', '~> 5.2.0', require: false
   gem 'rblineprof', '~> 0.3.6', platform: :mri, require: false
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 3.0', '>= 3.0.0'
 
   # Better errors handler
-  gem 'better_errors', '~> 1.0.1'
+  gem 'better_errors', '~> 2.3.0'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # thin instead webrick
@@ -272,8 +272,8 @@ group :development, :test do
   gem 'fuubar', '~> 2.0.0'
 
   gem 'database_cleaner',   '~> 1.5.0'
-  gem 'factory_girl_rails', '~> 4.6.0'
-  gem 'rspec-rails',        '~> 3.5.0'
+  gem 'factory_girl_rails', '~> 4.7.0'
+  gem 'rspec-rails', '~> 3.5.1'
   gem 'rspec-retry',        '~> 0.4.5'
   gem 'spinach-rails',      '~> 0.2.1'
   gem 'spinach-rerun-reporter', '~> 0.0.2'
@@ -288,8 +288,8 @@ group :development, :test do
   gem 'capybara-screenshot', '~> 1.0.0'
   gem 'poltergeist',         '~> 1.9.0'
 
-  gem 'teaspoon', '~> 1.1.0'
-  gem 'teaspoon-jasmine', '~> 2.2.0'
+  gem 'teaspoon', '~> 1.2.0'
+  gem 'teaspoon-jasmine', '~> 2.3.4'
 
   gem 'spring',                   '~> 1.7.0'
   gem 'spring-commands-rspec',    '~> 1.0.4'
@@ -309,7 +309,7 @@ group :development, :test do
   gem 'license_finder', '~> 2.1.0', require: false
   gem 'knapsack', '~> 1.11.0'
 
-  gem 'activerecord_sane_schema_dumper', '0.2'
+  gem 'activerecord_sane_schema_dumper', '1.0'
 end
 
 group :test do
@@ -333,7 +333,7 @@ gem 'email_reply_parser', '~> 0.5.8'
 gem 'ruby-prof', '~> 0.16.2'
 
 ## CI
-gem 'activerecord-session_store', '~> 1.0.0'
+gem 'activerecord-session_store', '~> 1.1.1'
 gem 'nested_form', '~> 0.3.2'
 
 # OAuth
@@ -343,7 +343,7 @@ gem 'oauth2', '~> 1.2.0'
 gem 'paranoia', '~> 2.0'
 
 # Health check
-gem 'health_check', '~> 2.2.0'
+gem 'health_check', '~> 2.3.0'
 
 # System information
 gem 'vmstat', '~> 2.2'
