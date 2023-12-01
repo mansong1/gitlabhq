@@ -78,7 +78,7 @@ gem 'kaminari', '~> 0.17.0'
 gem 'hamlit', '~> 2.6.1'
 
 # Files attachments
-gem 'carrierwave', '~> 0.10.0'
+gem 'carrierwave', '~> 2.2.5'
 
 # Drag and Drop UI
 gem 'dropzonejs-rails', '~> 0.7.1'
