@@ -28,7 +28,7 @@ gem 'omniauth-facebook',      '~> 4.0.0'
 gem 'omniauth-github',        '~> 1.1.1'
 gem 'omniauth-gitlab',        '~> 1.0.0'
 gem 'omniauth-google-oauth2', '~> 0.4.1'
-gem 'omniauth-kerberos',      '~> 0.3.0', group: :kerberos
+gem 'omniauth-kerberos', '~> 0.4.0', group: :kerberos
 gem 'omniauth-saml',          '~> 1.7.0'
 gem 'omniauth-shibboleth',    '~> 1.2.0'
 gem 'omniauth-twitter',       '~> 1.2.0'
