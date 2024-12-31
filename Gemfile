@@ -186,7 +186,7 @@ gem 'd3_rails', '~> 3.5.0'
 gem 'underscore-rails', '~> 1.8.0'
 
 # Sanitize user input
-gem 'sanitize', '~> 2.0'
+gem 'sanitize', '~> 7.0', '>= 7.0.0'
 gem 'babosa', '~> 1.0.2'
 
 # Sanitizes SVG input
