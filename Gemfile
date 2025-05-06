@@ -273,7 +273,7 @@ group :development, :test do
 
   gem 'database_cleaner',   '~> 1.5.0'
   gem 'factory_girl_rails', '~> 4.6.0'
-  gem 'rspec-rails',        '~> 3.5.0'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'rspec-retry',        '~> 0.4.5'
   gem 'spinach-rails',      '~> 0.2.1'
   gem 'spinach-rerun-reporter', '~> 0.0.2'
