@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.0.0'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
@@ -60,7 +60,7 @@ gem 'gitlab_omniauth-ldap', '~> 1.2.1', require: 'omniauth-ldap'
 
 # Git Wiki
 # Required manually in config/initializers/gollum.rb to control load order
-gem 'gollum-lib', '~> 4.2', require: false
+gem 'gollum-lib', '~> 5.0', require: false
 gem 'gollum-rugged_adapter', '~> 0.4.2', require: false
 
 # Language detection
@@ -72,7 +72,7 @@ gem 'grape-entity', '~> 0.4.2'
 gem 'rack-cors',    '~> 0.4.0', require: 'rack/cors'
 
 # Pagination
-gem 'kaminari', '~> 0.17.0'
+gem 'kaminari', '~> 1.0.0'
 
 # HAML
 gem 'hamlit', '~> 2.6.1'
@@ -81,7 +81,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 0.10.0'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.3'
 
 # for backups
 gem 'fog-aws', '~> 0.9'
@@ -99,8 +99,8 @@ gem 'unf', '~> 0.1.4'
 gem 'seed-fu', '~> 2.3.5'
 
 # Markdown and HTML processing
-gem 'html-pipeline',      '~> 1.11.0'
-gem 'deckar01-task_list', '1.0.5', require: 'task_list/railtie'
+gem 'html-pipeline', '~> 3.0.0'
+gem 'deckar01-task_list', '1.0.6', require: 'task_list/railtie'
 gem 'gitlab-markup',      '~> 1.5.0'
 gem 'redcarpet',          '~> 3.3.3'
 gem 'RedCloth',           '~> 4.3.2'
@@ -214,10 +214,10 @@ gem 'oj', '~> 2.17.4'
 gem 'chronic', '~> 0.10.2'
 gem 'chronic_duration', '~> 0.10.6'
 
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'uglifier', '~> 2.7.2'
-gem 'turbolinks', '~> 2.5.0'
+gem 'turbolinks', '~> 5.0.0'
 gem 'jquery-turbolinks', '~> 2.1.0'
 
 gem 'addressable',        '~> 2.3.8'
@@ -254,14 +254,14 @@ group :development do
   gem 'rerun', '~> 0.11.0'
   gem 'bullet', '~> 5.2.0', require: false
   gem 'rblineprof', '~> 0.3.6', platform: :mri, require: false
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 3.0', '>= 3.0.0'
 
   # Better errors handler
   gem 'better_errors', '~> 1.0.1'
   gem 'binding_of_caller', '~> 0.7.2'
 
   # thin instead webrick
-  gem 'thin', '~> 1.7.0'
+  gem 'thin', '~> 2.0.0'
 end
 
 group :development, :test do
@@ -343,7 +343,7 @@ gem 'oauth2', '~> 1.2.0'
 gem 'paranoia', '~> 2.0'
 
 # Health check
-gem 'health_check', '~> 2.2.0'
+gem 'health_check', '~> 2.8.0'
 
 # System information
 gem 'vmstat', '~> 2.2'
