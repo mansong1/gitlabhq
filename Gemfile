@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.1.5.2'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
@@ -10,7 +10,7 @@ gem 'sprockets', '~> 3.7.0'
 gem 'sprockets-es6', '~> 0.9.2'
 
 # Default values for AR models
-gem 'default_value_for', '~> 3.0.0'
+gem 'default_value_for', '~> 3.6.0'
 
 # Supported DBs
 gem 'mysql2', '~> 0.3.16', group: :mysql
@@ -81,7 +81,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 0.10.0'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.3'
 
 # for backups
 gem 'fog-aws', '~> 0.9'
@@ -96,7 +96,7 @@ gem 'fog-rackspace', '~> 0.1.1'
 gem 'unf', '~> 0.1.4'
 
 # Seed data
-gem 'seed-fu', '~> 2.3.5'
+gem 'seed-fu', '~> 2.3.7'
 
 # Markdown and HTML processing
 gem 'html-pipeline',      '~> 1.11.0'
@@ -126,12 +126,12 @@ group :unicorn do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.4.0'
+gem 'state_machines-activerecord', '~> 0.6.0'
 # Run events after state machine commits
 gem 'after_commit_queue', '~> 1.3.0'
 
 # Issue tags
-gem 'acts-as-taggable-on', '~> 4.0'
+gem 'acts-as-taggable-on', '~> 5.0', '>= 5.0.0'
 
 # Background jobs
 gem 'sidekiq', '~> 4.2'
@@ -317,7 +317,7 @@ group :test do
   gem 'email_spec', '~> 1.6.0'
   gem 'json-schema', '~> 2.6.2'
   gem 'webmock', '~> 1.21.0'
-  gem 'test_after_commit', '~> 0.4.2'
+  gem 'test_after_commit', '~> 0.5.0'
   gem 'sham_rack', '~> 1.3.6'
   gem 'timecop', '~> 0.8.0'
 end
@@ -333,17 +333,17 @@ gem 'email_reply_parser', '~> 0.5.8'
 gem 'ruby-prof', '~> 0.16.2'
 
 ## CI
-gem 'activerecord-session_store', '~> 1.0.0'
+gem 'activerecord-session_store', '~> 1.1.1'
 gem 'nested_form', '~> 0.3.2'
 
 # OAuth
 gem 'oauth2', '~> 1.2.0'
 
 # Soft deletion
-gem 'paranoia', '~> 2.0'
+gem 'paranoia', '~> 2.6', '>= 2.6.3'
 
 # Health check
-gem 'health_check', '~> 2.2.0'
+gem 'health_check', '~> 2.3.0'
 
 # System information
 gem 'vmstat', '~> 2.2'
