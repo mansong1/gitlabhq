@@ -20,14 +20,14 @@ gem 'pg', '~> 0.18.2', group: :postgres
 gem 'devise',                 '~> 4.2'
 gem 'doorkeeper',             '~> 4.2.0'
 gem 'omniauth',               '~> 1.3.1'
-gem 'omniauth-auth0',         '~> 1.4.1'
-gem 'omniauth-azure-oauth2',  '~> 0.0.6'
+gem 'omniauth-auth0', '~> 1.4.2'
+gem 'omniauth-azure-oauth2', '~> 0.0.8'
 gem 'omniauth-bitbucket',     '~> 0.0.2'
 gem 'omniauth-cas3',          '~> 1.1.2'
-gem 'omniauth-facebook',      '~> 4.0.0'
-gem 'omniauth-github',        '~> 1.1.1'
-gem 'omniauth-gitlab',        '~> 1.0.0'
-gem 'omniauth-google-oauth2', '~> 0.4.1'
+gem 'omniauth-facebook', '~> 5.0.0'
+gem 'omniauth-github', '~> 1.2.0'
+gem 'omniauth-gitlab', '~> 1.0.2'
+gem 'omniauth-google-oauth2', '~> 0.5.0'
 gem 'omniauth-kerberos',      '~> 0.3.0', group: :kerberos
 gem 'omniauth-saml',          '~> 1.7.0'
 gem 'omniauth-shibboleth',    '~> 1.2.0'
@@ -174,7 +174,7 @@ gem 'gemnasium-gitlab-service', '~> 0.2'
 gem 'slack-notifier', '~> 1.2.0'
 
 # Asana integration
-gem 'asana', '~> 0.4.0'
+gem 'asana', '~> 2.0.1'
 
 # FogBugz integration
 gem 'ruby-fogbugz', '~> 0.2.1'
@@ -235,7 +235,7 @@ gem 'net-ssh',            '~> 3.0.1'
 gem 'base32',             '~> 0.3.0'
 
 # Sentry integration
-gem 'sentry-raven', '~> 2.0.0'
+gem 'sentry-raven', '~> 3.0.0'
 
 gem 'premailer-rails', '~> 1.9.0'
 
@@ -324,7 +324,7 @@ end
 
 gem 'newrelic_rpm', '~> 3.16'
 
-gem 'octokit', '~> 4.3.0'
+gem 'octokit', '~> 4.23.0'
 
 gem 'mail_room', '~> 0.9.0'
 
@@ -337,7 +337,7 @@ gem 'activerecord-session_store', '~> 1.0.0'
 gem 'nested_form', '~> 0.3.2'
 
 # OAuth
-gem 'oauth2', '~> 1.2.0'
+gem 'oauth2', '~> 1.4.8'
 
 # Soft deletion
 gem 'paranoia', '~> 2.0'
